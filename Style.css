@@ -1,0 +1,158 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+/* Header Styling */
+header {
+    background-color: #f8cdd1;
+    text-align: center;
+}
+
+/* Top Bar */
+.top-bar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #6e1a2b;
+    padding: 10px 20px;
+    color: white;
+}
+
+.about-btn {
+    background-color: #8c2c3f;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.about-btn:hover {
+    background-color: #a8374d;
+}
+
+.top-bar input {
+    padding: 8px;
+    border-radius: 5px;
+    border: none;
+    outline: none;
+}
+
+.logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.social-icons i {
+    font-size: 18px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.social-icons i:hover {
+    color: #ffebcd;
+}
+
+
+
+/* Cookie Menu */
+.cookie-menu {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding: 15px;
+    background-color: #f8cdd1;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.cookie-menu span {
+    cursor: pointer;
+}
+
+.cookie-menu span:hover {
+    color: #6e1a2b;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f5f7;
+}
+header {
+    background-color: #732d38;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #a86c75;
+}
+.logo {
+    font-size: 24px;
+}
+.hero {
+    background: url('cookies.jpg') center/cover no-repeat;
+    padding: 100px;
+    text-align: center;
+    color: white;
+    font-size: 24px;
+}
+.currently-serving {
+    text-align: center;
+    padding: 40px;
+}
+.cards {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+.card img {
+    width: 200px;
+    height: 200px;
+    border-radius: 10px;
+}
+.quote {
+    text-align: center;
+    background-color: #732d38;
+    color: white;
+    padding: 20px;
+    margin: 40px 0;
+}
+.product {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    padding: 40px;
+}
+.product img {
+    width: 300px;
+    border-radius: 10px;
+}
+.product-info {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+button {
+    background-color: #732d38;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #a86c75;
+    color: white;
+}
